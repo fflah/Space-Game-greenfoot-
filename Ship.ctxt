@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Ship
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Ship\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ ship()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ checkKeys()
+comment3.text=\r\n\ Moves\ the\ spaceship\ in\ up,\ down,\ left,\ right\ direction.\r\n
+comment4.params=
+comment4.target=void\ fire()
+comment4.text=\r\n\ Fires\ the\ Laser\ from\ the\ ship.\r\n\ Does\ this\ by\ adding\ the\ laser\ Object\ at\ the\ spaceships\r\n\ location.\r\n
+comment5.params=
+comment5.target=void\ gotHit()
+numComments=6

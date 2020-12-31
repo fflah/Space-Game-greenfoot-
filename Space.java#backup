@@ -1,0 +1,66 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Space here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Space extends World
+{
+Counter scoreCounter;
+
+
+    
+    /**
+     * Constructor for objects of class Space.
+     */
+    public Space(){
+        super(800, 450, 1);
+        prepare();
+    }
+    
+    public void act() {
+       if(Counter.value < 100){
+		if(getObjects(Astroid.class).size()<2){
+			addObject(new Astroid(), getWidth(), Greenfoot.getRandomNumber(getHeight()));
+		  }
+        }
+
+		if(Counter.value>=100){
+			if(getObjects(Astroid.class).size()<4){
+			addObject(new Astroid(), getWidth(), Greenfoot.getRandomNumber(getHeight()));
+				}
+		 }
+		 
+		 if(Counter.value>200){
+			if(getObjects(Astroid.class).size()<4){
+			addObject(new Astroid(), getWidth(), Greenfoot.getRandomNumber(getHeight()));
+				}
+		 }
+
+
+    }
+
+    
+    public void addScore(int newScore) {
+        scoreCounter.add(newScore);
+    }
+    
+    public int score() {
+        return scoreCounter.getValue();
+    }
+
+    /**
+     * Prepare the world for the start of the program. That is: create the initial
+     * objects and add them to the world.
+     */
+    private void prepare() {
+        scoreCounter = new Counter();
+        addObject(scoreCounter, 705, 50);
+        Ship ship = new Ship();
+        addObject(ship, 373, 284);
+        ship.setLocation(62, 288);
+        //scoreCounter.setLocation(705, 50);
+    }
+}

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=EndOfGame
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ EndOfGame\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=EndOfGame()
+comment2.params=
+comment2.target=void\ endGame()
+comment2.text=\r\n\ Game\ over\ class\ to\ draw\ a\ Game\ over\ string....\r\n
+numComments=3

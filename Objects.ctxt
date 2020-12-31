@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Objects
+comment0.text=\r\n\ this\ will\ be\ a\ superclass\ for\ all\ the\ objects\ flying\ around\r\n\ in\ the\ space\ world\r\n
+comment1.params=
+comment1.target=Objects()
+comment2.params=
+comment2.target=boolean\ atWorldEdge()
+comment2.text=\r\n\ Tells\ weather\ the\ object\ is\ at\ the\ edge\ of\ the\ world.\r\n
+comment3.params=cls
+comment3.target=boolean\ onContact(java.lang.Class)
+comment3.text=\r\n\ Tells\ weather\ 2\ objects\ intersect.\r\n
+comment4.params=
+comment4.target=Space\ getSpace()
+numComments=5
